@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "784237165999",
+    "project_id": "appimc-430db",
+    "storage_bucket": "appimc-430db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784237165999:android:360f574fe222a53e50c35a",
+        "android_client_info": {
+          "package_name": "com.camilo.appimc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI-fkv06P-areGPuzISaG4Kv31BDoXhPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

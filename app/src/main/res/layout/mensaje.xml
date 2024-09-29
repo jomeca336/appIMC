@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/teal_700"
+        >
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/nombreTabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+
+            >
+
+
+            <TextView
+                android:id="@+id/sexoTabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sexo"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/white"
+
+                />
+
+            <TextView
+                android:id="@+id/edadTabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/white"
+
+                />
+
+            <TextView
+                android:id="@+id/estadoPesoTabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado de peso"
+                android:textColor="@color/white"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/borrar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/borrar"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
